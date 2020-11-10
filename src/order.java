@@ -39,7 +39,7 @@ public class order {
 	}
 
 	double fitnessFunction(double distance) {
-		return 1 / (distance);
+		return (1 / Math.pow(distance,distance));
 	}
 
 	double calcDistance(ArrayList<city> cityList) {
